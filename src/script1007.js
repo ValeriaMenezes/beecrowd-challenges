@@ -1,3 +1,5 @@
+// Beecrowd 1007 - Diferença
+
 const input = require('./initialDefault');
 const lines = input.split('\n');
 
