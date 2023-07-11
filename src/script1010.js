@@ -1,6 +1,6 @@
 // Beecrowd 1010 - Cálculo Simples
 
-const input = require('./initialDefault');
+const input = require('./scriptMain');
 const lines = input.split('\n');
 
 const [idItem1, qtdItem1, valorItem1] = lines.shift().split(' ');

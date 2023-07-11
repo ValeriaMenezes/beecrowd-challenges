@@ -1,6 +1,6 @@
 // Beecrown 1005 - Média 1
 
-const input = require('./initialDefault');
+const input = require('./scriptMain');
 const lines = input.split('\n');
 
 const notaA = parseFloat(lines.shift() * 3.5);

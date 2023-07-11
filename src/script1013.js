@@ -1,6 +1,6 @@
 // Beecrowd 1013 - Maior
 
-const input = require('./initialDefault');
+const input = require('./scriptMain');
 const [a, b, c] = input.split(' ').map((item) => parseInt(item));
 
 const biggerAB = (a + b + Math.abs(a - b)) / 2;

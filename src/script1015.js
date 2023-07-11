@@ -1,6 +1,6 @@
 // Beecrowd 1015 - Distância entre dois pontos
 
-const input = require('./initialDefault');
+const input = require('./scriptMain');
 const lines = input.split('\n');
 
 const [x1, y1] = lines.shift().split(' ');

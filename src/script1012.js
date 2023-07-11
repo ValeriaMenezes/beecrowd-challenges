@@ -1,6 +1,6 @@
 // Beecrowd 1012 - Área
 
-const input = require('./initialDefault');
+const input = require('./scriptMain');
 const [A, B, C] = input.split(' ').map((item) => parseFloat(item));
 
 const PI = 3.14159;

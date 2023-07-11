@@ -1,6 +1,6 @@
 // Beecrowd 1014 - Consumo
 
-const input = require('./initialDefault');
+const input = require('./scriptMain');
 const lines = input.split('\n');
 
 const totalKm = parseInt(lines.shift());

@@ -1,6 +1,6 @@
 // Beecrowd 1006 - Média 2
 
-const input = require('./initialDefault');
+const input = require('./scriptMain');
 const lines = input.split('\n');
 
 const notaA = parseFloat(lines.shift() * 2);

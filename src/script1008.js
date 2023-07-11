@@ -1,6 +1,6 @@
 // Beecrowd 1008 - Salário
 
-const input = require('./initialDefault');
+const input = require('./scriptMain');
 const lines = input.split('\n');
 
 const number = parseInt(lines.shift());

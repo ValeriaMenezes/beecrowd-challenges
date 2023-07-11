@@ -1,6 +1,6 @@
 // Beecrowd 1016 - Distância
 
-const input = require('./initialDefault');
+const input = require('./scriptMain');
 
 const qtdMin = (60 * input) / 30;
 

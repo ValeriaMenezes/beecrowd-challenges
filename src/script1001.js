@@ -1,4 +1,4 @@
-const input = require('./initialDefault');
+const input = require('./scriptMain');
 const lines = input.split('\n');
 // retorna array de string
 

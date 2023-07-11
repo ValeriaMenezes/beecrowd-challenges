@@ -1,6 +1,6 @@
 // Beecrowd 1009 - Salário com bônus
 
-const input = require('./initialDefault');
+const input = require('./scriptMain');
 const lines = input.split('\n');
 
 const name = lines.shift();

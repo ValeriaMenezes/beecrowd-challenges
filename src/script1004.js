@@ -1,6 +1,6 @@
 // Beecrowd 1004 - Produto Simples
 
-const input = require('./initialDefault');
+const input = require('./scriptMain');
 const lines = input.split('\n');
 
 const A = parseInt(lines.shift());
