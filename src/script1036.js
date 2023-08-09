@@ -1,4 +1,4 @@
-// Fórmula de Bhaskara - Beecrowd 1036
+// Beecrowd 1036 - Fórmula de Bhaskara
 
 const input = require('./scriptMain');
 

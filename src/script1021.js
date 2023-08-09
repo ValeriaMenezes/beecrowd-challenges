@@ -1,4 +1,4 @@
-// Notas e Moedas - Beecrowd 1021
+// Beecrowd 1021 - Notas e Moedas
 
 const input = require('./scriptMain');
 

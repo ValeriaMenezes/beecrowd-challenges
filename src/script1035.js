@@ -1,4 +1,4 @@
-// Teste de Seleção 1 - Beecrowd 1035
+// Beecrowd 1035 - Teste de Seleção 1
 
 const input = require('./scriptMain');
 const lines = input.split(' ');

@@ -1,4 +1,5 @@
 // Beecrowd 1037 - Intervalo
+
 const input = require('./scriptMain');
 const value = Number(input);
 

@@ -1,4 +1,4 @@
-// Conversão de tempo - Beecrowd 1019
+// Beecrowd 1019 - Conversão de tempo
 
 const input = require('./scriptMain');
 

@@ -1,4 +1,4 @@
-// Idade em dias - Beecrowd 1020
+// Beecrowd 1020 - Idade em dias
 
 const input = require('./scriptMain');
 
