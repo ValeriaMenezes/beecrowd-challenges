@@ -3,7 +3,7 @@
 const input = require('./scriptMain');
 const values = input.split(' ').map((num) => parseFloat(num));
 
-const sortedNumbers = (valuesArray) => {
+const descendingOrder = (valuesArray) => {
 
   for (let extIndex = 0; extIndex < valuesArray.length; extIndex += 1) {
     for (let intIndex = 0; intIndex < valuesArray.length - 1 - extIndex; intIndex += 1) {
@@ -18,7 +18,7 @@ const sortedNumbers = (valuesArray) => {
 };
 
 const typesTriangles = (values) => {
-  const [A, B, C] = sortedNumbers(values);
+  const [A, B, C] = descendingOrder(values);
   const types = [];
 
   if (A >= (B + C)) {

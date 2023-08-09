@@ -3,7 +3,7 @@
 const input = require('./scriptMain');
 const valuesArray = input.split(' ').map((num) => Number(num));
 
-const sortNumbers = (valuesArray) => {
+const ascendingOrder = (valuesArray) => {
   const copyOriginals = valuesArray.slice();
   
   for (let extIndex = 0; extIndex < valuesArray.length; extIndex += 1) {
@@ -20,11 +20,11 @@ const sortNumbers = (valuesArray) => {
   return message;
 };
 
-console.log(sortNumbers(valuesArray));
+console.log(ascendingOrder(valuesArray));
 
 // A SOLUÇÃO ACIMA NÃO DEPENDE DE APENAS TRÊS VALORES DE ENTRADA E POR ISSO É MAIS DINÂMICA QUE A SOLUÇÃO ABAIXO
 
-// const sortNumbers = (valuesArray) => {
+// const ascendingOrder = (valuesArray) => {
 //   const copy = valuesArray.slice();
   
 //   for (let extIndex = 0; extIndex < valuesArray.length; extIndex += 1) {
@@ -45,4 +45,4 @@ console.log(sortNumbers(valuesArray));
 //   return message;
 // }
 
-// console.log(sortNumbers(valuesArray));
+// console.log(ascendingOrder(valuesArray));
