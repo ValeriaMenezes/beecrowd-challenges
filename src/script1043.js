@@ -20,7 +20,7 @@ const triangle = (a, b, c) => {
   }
 
   return result;
-}
+};
 
 console.log(triangle(a, b, c));
 
@@ -44,6 +44,6 @@ console.log(triangle(a, b, c));
 //   }
 
 //   return result;
-// }
+// };
 
 // console.log(triangle2(a, b, c));

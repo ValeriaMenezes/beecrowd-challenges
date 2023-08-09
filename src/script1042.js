@@ -18,7 +18,7 @@ const sortNumbers = (valuesArray) => {
 
   const message = `${valuesArray.join('\n')}\n\n${copyOriginals.join('\n')}`;
   return message;
-}
+};
 
 console.log(sortNumbers(valuesArray));
 
