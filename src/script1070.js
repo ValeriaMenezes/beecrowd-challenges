@@ -1,4 +1,4 @@
-// Beecrowd 1068 - Seis Números Ímpares
+// Beecrowd 1070- Seis Números Ímpares
 
 const input = require('./scriptMain');
 let number = Number(input);
