@@ -35,7 +35,6 @@ ${negative} valor(es) negativo(s)`;
 
 console.log(verifyNumbers(numbers));
 
-
 // positivo 
 //  -> par ou impar
 // negativo
