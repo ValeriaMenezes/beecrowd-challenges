@@ -6,14 +6,14 @@ const numbers = input.split('\n').map((num) => Number(num));
 const verifyNumbers = (numbers) => {
   let positive = 0;
   let negative = 0;
-  let pair = 0;
+  let even = 0;
   let odd = 0;
 
   for (let index = 0; index < numbers.length -1; index += 1) {
     let number = numbers[index];
 
     if (number % 2 === 0) {
-      pair += 1;
+      even += 1;
     } else {
       odd += 1;
     }
@@ -25,7 +25,7 @@ const verifyNumbers = (numbers) => {
     }
   }
 
-  const message = `${pair} valor(es) par(es)
+  const message = `${even} valor(es) par(es)
 ${odd} valor(es) impar(es)
 ${positive} valor(es) positivo(s)
 ${negative} valor(es) negativo(s)`;
@@ -43,14 +43,14 @@ console.log(verifyNumbers(numbers));
     // if (number > 0) {
     //   positive += 1;
     //   if (number % 2 === 0) {
-    //     pair += 1;
+    //     even += 1;
     //   } else {
     //     odd += 1;
     //   }
     // } else {
     //   negative += 1;
     //   if (number % 2 === 0) {
-    //     pair += 1;
+    //     even += 1;
     //   } else {
     //     odd += 1;
     //   }
