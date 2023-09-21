@@ -8,6 +8,7 @@ let number = 0;
 let result = '';
 let sum = 0;
 
+// um número perfeito é um número inteiro para o qual a soma de todos os seus divisores positivos próprios (excluindo ele mesmo) é igual ao próprio número
 for (let i = 0; i < testCases; i += 1) {
   sum = 0;
   number = lines.shift();
