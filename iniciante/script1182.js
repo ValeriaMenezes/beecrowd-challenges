@@ -1,23 +1,17 @@
-// Beecrowd 1181 - Linha na Matriz
+// Beecrowd 1182 - Coluna na Matriz
 
 const input = require('./scriptMain');
 const lines = input.split('\n');
 
-const line = Number(lines.shift());
+const column = Number(lines.shift());
 const letter = lines.shift();
 let count = 0;
 let sum = 0;
 
-// const mtz = [];
-// for (let o = 0; o < 144; o +=1) {
-//   mtz.push(o);
-// }
-
 for (let l = 0; l < 12; l += 1) {
   for (let c = 0; c < 12; c += 1) {
     const value = parseFloat(lines.shift());
-    if (l === line) {
-      // console.log(value);
+    if (c === column) {
       count += 1;
       sum += value;
     }
