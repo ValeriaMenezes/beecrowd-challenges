@@ -8,9 +8,9 @@ let matrizColumn = [];
 let matrizLine = [];
 while (number !== 0) {
   matrizLine = new Array(number);
-  for (let line = 0; line < number / 2; line ++) {
+  for (let line = 0; line < number / 2; line += 1) {
     matrizColumn = new Array(number);
-    for (let column = 0; column < number / 2; column ++) {
+    for (let column = 0; column < number / 2; column += 1) {
       const value = Math.min(line, column) + 1;
       matrizColumn[column] = value < 10 ? ` ${value}` : `${value}`; 
       matrizColumn[number - 1 - column] = matrizColumn[column];
